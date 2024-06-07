@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .active {
+        @apply underline decoration-special_green underline-offset-4 decoration-2;
+    }
+    .input-field {
+        @apply opacity-0 z-[-999] absolute;
+    }
+}
